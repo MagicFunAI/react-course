@@ -1,2 +1,0 @@
-# styled-components
-
