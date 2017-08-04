@@ -12,6 +12,8 @@
     * [stateless component](basics/stateless-component.md)
     * [props vs state](basics/props-vs-state.md)
     * [lifecyle](basics/lifecyle.md)
+    * [事件](basics/events.md)
+    * [Lists and Keys](basics/lists-and-keys.md)
     * [React调试工具](basics/react-developer-tool.md)
 * [React样式](css/README.md)
     * [styled-components基础用法](css/styled-components-basics.md)
