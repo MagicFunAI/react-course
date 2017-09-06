@@ -1,7 +1,17 @@
 # 30分钟入门
 
+## 课程知识点
+* props
+* state
+* inline styles
+* stateless component vs container component
+
+## 视频
 
 <iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=z0536ezm23l&tiny=0&auto=0" allowfullscreen></iframe>
+
+我尝试了youku、qq视频等，发现广告都挺长的，特地上传了一份到youbute上，如果可以翻墙的话，建议在youtube上看。如果不能，强烈推荐[Lantern](https://github.com/getlantern/lantern)，大家可以使用免费版的， 也可以购买专业版，年费也很便宜，相信我“免费的才是最贵的”， 如果大家购买专业版，可以用我的邀请码哈，YGBF2R6。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/osFE32ccEig" frameborder="0" allowfullscreen></iframe>
 
 ## 代码地址
 https://codepen.io/magicly/pen/EvXRBP
