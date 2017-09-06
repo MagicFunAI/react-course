@@ -9,6 +9,7 @@
     "3-ba",
     "splitter",
     "donate",
+    "favicon",
     "sitemap"
   ],
   "pluginsConfig": {
@@ -31,6 +32,10 @@
       "button": "赏",
       "alipayText": "支付宝打赏",
       "wechatText": "微信打赏"
+    },
+    "favicon": {
+      "shortcut": "assets/images/favicon.ico",
+      "bookmark": "assets/images/favicon.ico"
     },
     "sitemap": {
       "hostname": "https://react-course.magicfun.ai"
