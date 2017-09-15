@@ -50,12 +50,35 @@ cosnt myStyle = {color: "red", backgroundColor: "green"}
 inline样式不存在样式命名冲突的问题，但是inline style有自己的问题，比如大家都知道的代码重复啊，没法缓存啊等等。
 
 # CSS modules
-[css modules](https://github.com/css-modules/css-modules)是[Glen Maddern](https://twitter.com/glenmaddern)开发的一套工具，用于解决css样式冲突问题，目前也很是流行。[Glen Maddern](https://twitter.com/glenmaddern)在他的[blog](https://glenmaddern.com/articles/css-modules)上详细介绍了css modules的好处和设计理念， 有兴趣的可以看看。
+[css modules][css modules]是[Glen Maddern][glen]开发的一套工具，用于解决css样式冲突问题，目前也很是流行。[Glen Maddern][glen]在他的[blog](https://glenmaddern.com/articles/css-modules)上详细介绍了css modules的好处和设计理念， 有兴趣的可以看看。
 
-经过对比，我发现[styled-components](https://github.com/styled-components/styled-components)要更方便好用一些，因此我们主要讲解[styled-components](https://github.com/styled-components/styled-components)。 [Glen Maddern](https://twitter.com/glenmaddern)本人后来也参与了[styled-components](https://github.com/styled-components/styled-components)的核心开发工作，由此也可以作为一个考量依据，建议大家选择[styled-components](https://github.com/styled-components/styled-components)。
+# Css in JS
+自从2014年Christopher Chedeau做了[CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)的演讲之后， cssinjs的各种库纷纷出现，已经[有好几十种了](https://github.com/MicheleBertoli/css-in-js)。
+
+这有一篇[Material UI](https://github.com/callemall/material-ui)的一位作者[讲他们如何在各种cssinjs中做的选型](https://github.com/oliviertassinari/a-journey-toward-better-style)，介绍对比了各种cssinjs库的一些特性，大家可以了解一下， 这里是[PPT](https://oliviertassinari.github.io/a-journey-toward-better-style/)。
+
+# Styled Components
+[css modules][css modules]应该是很流行的了， 说实话我没有用过， 不过在浏览作者主页的时候意外发现了[styled-components][sc]，发现这才是我真正想要的！大家可以看看下面几个视频，先有个大概印象。
+
+[styled-components][sc]作者[Max Stoiber][mxstbr]在2017年React大会上的演讲：
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2j9rSur_mnk" frameborder="0" allowfullscreen></iframe>
+
+[css modules][css modules]作者[@glenmaddern][glen]在2017年欧洲CSS大会上分享[styled-components][sc]。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MT4D_DioYC8" frameborder="0" allowfullscreen></iframe>
+
+[css modules][css modules]作者[@glenmaddern][glen]分享[styled-components][sc]， 玩得很high啊。
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qu4U7lwZTRI" frameborder="0" allowfullscreen></iframe>
+
+经过对比，我发现[styled-components][sc]的几大特点极好地满足我的需求，包括：
+1. pure css： 支持完全的CSS（包括动画、伪元素以及媒体查询等），写法也是CSS本身
+2. 支持根据条件（props）设置样式，支持主题
+3. 支持服务端渲染，配合静态生成工具（比如[Gatsby](https://github.com/gatsbyjs/gatsby)），简直完美
+4. 支持React Native
+
+ [Glen Maddern][glen]本人也参与了[styled-components][sc]的核心开发工作，由此也可以作为一个考量依据，建议大家选择[styled-components][sc]。
 
 # 总结
-由于CSS本身不支持命名作用域（或者说只有一个global作用域），因此很容易出现命名冲突。出现的很多技术都是为了解决命名冲突的问题。本章简要介绍了用普通的CSS，React inline style，css modules的方法以及存在的问题，这里推荐一篇讲[CSS各种技术发展](https://m.alphasights.com/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b)的blog，大家有兴趣的可以看看。还有一个[github repo对各种方法进行了对比](https://github.com/styled-components/comparison)，这个repo是styled-components提供的，也就是接下来我们要讲的重点。
+由于CSS本身不支持命名作用域（或者说只有一个global作用域），因此很容易出现命名冲突。出现的很多技术都是为了解决命名冲突的问题。本章简要介绍了用普通的CSS，React inline style，css modules， styled-components等方法以及存在的问题，这里推荐一篇讲[CSS各种技术发展](https://m.alphasights.com/css-evolution-from-css-sass-bem-css-modules-to-styled-components-d4c1da3a659b)的blog，大家有兴趣的可以看看。还有一个[github repo对各种方法进行了对比](https://github.com/styled-components/comparison)，这个repo是styled-components提供的，也就是接下来我们要讲的重点。
 
 # Refers
 * https://www.zhihu.com/question/30757566
@@ -66,3 +89,9 @@ inline样式不存在样式命名冲突的问题，但是inline style有自己�
 * https://github.com/styled-components/comparison
 * https://github.com/styled-components/styled-components
 * https://www.smashingmagazine.com/2017/01/styled-components-enforcing-best-practices-component-based-systems/
+
+
+[sc]: https://github.com/styled-components/styled-components
+[css modules]: https://github.com/css-modules/css-modules
+[mxstbr]: https://twitter.com/mxstbr
+[glen]: https://twitter.com/glenmaddern
