@@ -13,6 +13,9 @@
 我尝试了youku、qq视频等，发现广告都挺长的，特地上传了一份到youbute上，如果可以翻墙的话，建议在youtube上看。如果不能，强烈推荐[Lantern](https://github.com/getlantern/lantern)，大家可以使用免费版的， 也可以购买专业版，年费也很便宜，相信我“免费的才是最贵的”， 如果大家购买专业版，可以用我的邀请码哈，YGBF2R6。
 <iframe width="560" height="315" src="https://www.youtube.com/embed/osFE32ccEig" frameborder="0" allowfullscreen></iframe>
 
+发现[bilibili](https://www.bilibili.com/video/av14447835/)上也没有广告， 良心。
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=14447835&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
 ## 代码地址
 https://codepen.io/magicly/pen/EvXRBP
 
