@@ -53,7 +53,7 @@ inline样式不存在样式命名冲突的问题，但是inline style有自己�
 [css modules][css modules]是[Glen Maddern][glen]开发的一套工具，用于解决css样式冲突问题，目前也很是流行。[Glen Maddern][glen]在他的[blog](https://glenmaddern.com/articles/css-modules)上详细介绍了css modules的好处和设计理念， 有兴趣的可以看看。
 
 # Css in JS
-自从2014年Christopher Chedeau做了[CSS in JS](https://speakerdeck.com/vjeux/react-css-in-js)的演讲之后， cssinjs的各种库纷纷出现，已经[有好几十种了](https://github.com/MicheleBertoli/css-in-js)。
+自从2014年Christopher Chedeau做了[CSS in JS](http://blog.vjeux.com/2014/javascript/react-css-in-js-nationjs.html)的演讲之后， cssinjs的各种库纷纷出现，已经[有好几十种了](https://github.com/MicheleBertoli/css-in-js)。
 
 这有一篇[Material UI](https://github.com/callemall/material-ui)的一位作者[讲他们如何在各种cssinjs中做的选型](https://github.com/oliviertassinari/a-journey-toward-better-style)，介绍对比了各种cssinjs库的一些特性，大家可以了解一下， 这里是[PPT](https://oliviertassinari.github.io/a-journey-toward-better-style/)。
 
