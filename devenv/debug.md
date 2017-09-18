@@ -1,9 +1,9 @@
 # 调试工具
 
-## Chrome Dev Tools
-
-## VSCode Debugger
+## Chrome DevTools
 
 ## React Developer Tools
 
-## Redux DevTools
+## Redux DevTools Extension
+
+## VSCode Debugger

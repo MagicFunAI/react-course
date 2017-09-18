@@ -16,7 +16,7 @@ create-react-app my-app
 cd my-app/
 npm start
 ```
-现在打开浏览器，访问http://localhost:3000/， 可以看到项目启动起来了。
+现在打开浏览器，访问[http://localhost:3000/](http://localhost:3000/)， 可以看到项目启动起来了。
 如果开发完之后要上线的话， 可以执行下面的命令，会打包压缩文件：
 ```bash
 npm run build

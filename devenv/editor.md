@@ -12,6 +12,7 @@
 
 我自己在用的插件：
 * Vim， 习惯了vim，所有编辑器、IDE等，不支持Vim的我都不会用。
+* [Zencoding](https://github.com/emmetio/emmet)
 * vscode-icons
 * ESLint
 * vscode-styled-components
