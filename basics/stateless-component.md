@@ -1,4 +1,4 @@
-# stateless component
+# Stateless Component
 
 组件化开发思想第一条是：
 > 1. 函数就是组件，组件就是函数。 
