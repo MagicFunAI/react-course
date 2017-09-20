@@ -1,5 +1,7 @@
 # React学习课程
 
+课程地址 https://react-course.magicfun.ai/
+
 作者使用React + Redux + webpack开发两年有余， 也用过React Native，期间既有发现新功能时的惊喜，也有踩坑时的痛苦，希望将这两年多的所学所思整理成文，让新人少踩坑，早入React之门。
 
 内容主要包括：
@@ -15,6 +17,11 @@
 最后会安排一个完整的实战项目，覆盖React绝大部分知识点。
 
 # FAQ
+## 关于作者
+作者谦谦君子，网名[magicly](https://magicly.me/)，2010年毕业于北大，获信息管理学士学位和计算机软件学士学位，毕业之后先后在酷我音乐，人人游戏，腾讯等知名互联网公司工作，之后在成都一家创业公司担任CTO，带过一年多的团队。从前到后，网页设计、微信公众号、小程序、后端接口、数据库设计优化、运维脚本、数据统计分析等都做过，使用过Java、JS、Scala、Python、Bash、C++、Rust等语言，算不上精通，但也远非只会写`Hello World`。最近关注大前端（包括[Node.js](https://nodejs.org/en/), [React](http://facebook.github.io/react/), [React Native](https://facebook.github.io/react-native/), [Electron](https://electron.atom.io/), [Web Workers](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers), [WebAssembly](http://webassembly.org/), [WebGL](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API), [Three.js](https://threejs.org/), [D3.js](https://d3js.org/)等）以及[深度学习算法](https://magicly.me/iamtrask-anyone-can-code-lstm/)等。
+
+欢迎关注[微博](https://weibo.com/magicly)，或者扫描关注微信公众号![jsforfun](https://static.magicfun.ai/qrcode/jsforfun.jpg)
+
 ## 适用于什么人群？
 适合有一定前端基础，掌握HTML、CSS、Javascript基础知识，想了解React生态系统以及组件化开发思想的同学。对于非前端同学，建议先自行学习HTML、CSS、Javascript基础知识，推荐[w3schools](https://www.w3schools.com/)，或者中文版[W3School](http://www.w3school.com.cn/)。
 
