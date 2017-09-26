@@ -5,7 +5,6 @@
   "plugins": [
     "github",
     "prism",
-    "ga",
     "3-ba",
     "splitter",
     "donate",
@@ -18,9 +17,6 @@
     },
     "github": {
       "url": "https://github.com/MagicFunAI/react-course"
-    },
-    "ga": {
-      "token": "UA-105864788-1"
     },
     "3-ba": {
       "token": "cd5d6d3364c2ad2ab6fa2027dc60455a"
