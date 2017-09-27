@@ -38,4 +38,8 @@ React生态下的开发环境包括：
   * [又拍云](https://www.upyun.com/)
 
 
+===============
+
+最近不知道是B站抽风还是修改了分享规则， 分享出来的视频看不了， 大家也可以直接打开此链接：https://www.bilibili.com/video/av14583367/ 
+
   <embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=14583367&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
