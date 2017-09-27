@@ -100,6 +100,10 @@ const MyDiv = styled.div`
 ```
 然后styled-components在render的时候会把props传递给template string里面的interpolations函数，这些函数就能根据props的值来显示不同的样式了。
 
+# 视频地址
+https://www.bilibili.com/video/av14851466/
+<embed height="415" width="544" quality="high" allowfullscreen="true" type="application/x-shockwave-flash" src="//static.hdslb.com/miniloader.swf" flashvars="aid=14851466&page=1" pluginspage="//www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+
 # Refers
 * https://mxstbr.blog/2016/11/styled-components-magic-explained/
 * https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings
