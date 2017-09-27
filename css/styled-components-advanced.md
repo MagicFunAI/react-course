@@ -175,9 +175,6 @@ render(
 # 服务端渲染
 参见[官网文档](https://www.styled-components.com/docs/advanced#server-side-rendering)。
 
-# Babel Plugin
-参见[官网文档](https://www.styled-components.com/docs/advanced#babel-plugin)。
-
 
 # Rerfers
 * https://www.styled-components.com/docs/advanced

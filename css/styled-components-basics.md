@@ -7,6 +7,7 @@ $ npm install --save styled-components
 # 基本用法
 styled-components的想法是将样式“附着”在component上，使其变成“被样式化了的组件”。看一个最简单的例子：
 ```jsx
+import styled from 'styled-components';
 // 带样式的h1
 const Title = styled.h1`
 	font-size: 1.5em;
@@ -33,6 +34,8 @@ render(
 # 传递props
 styled-components可以根据props设置不同的样式，例如：
 ```jsx
+import styled from 'styled-components';
+
 const Button = styled.button`
   // 根据props是否用primary来设置颜色和背景颜色
 	background: ${props => props.primary ? 'palevioletred' : 'white'};
@@ -52,9 +55,11 @@ render(
 );
 ```
 
-# 格式化任意组件
+# 给任意组件绑定样式
 styled其实是一个函数，可以将样式绑定在任意组件上，包括自己开发的组件或者第三方库提供的组件，只要这个组件支持接收className（因为styled-components会将template string里面的内容提出来生成真正的css，然后用class名称跟css关联起来）。
 ```jsx
+import styled from 'styled-components';
+
 // 一个链接，可以是react-router提供的组件
 const Link = ({ className, children }) => (
 	<a className={className}>
@@ -81,6 +86,8 @@ render(
 # 扩展样式
 css的全称是Cascading Stylesheet，这里Cascading就是指的“继承”，也就是子元素的会继承父元素的样式，这样可以大大节省css代码量。比如我已经有一个Button组件了，并且也配置好了样式，现在我只是想要换一下颜色，其他样式（包括边框，大小，字体等）都不变，可以这样写：
 ```jsx
+import styled from 'styled-components';
+
 const Button = styled.button`
 	color: palevioletred;
 	font-size: 1em;
@@ -107,6 +114,8 @@ render(
 # 动画
 用css制作动画需要制作keyframes，styled-components也是支持的。由于keyframes不是绑定在某个具体的component上的，所以你不能像之前那么使用。当然，你也不希望因此就把keyframes写成全局的，不然又有命名冲突的问题了。需要使用styled-components提供的keyframes方法，它会产生一个unique的名字。
 ```jsx
+import styled, {keyframes} from 'styled-components';
+
 // 这会根据keyframes的内容的hash生成一个唯一的名字
 const rotate360 = keyframes`
 	from {

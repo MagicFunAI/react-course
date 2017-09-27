@@ -16,7 +16,7 @@ const Title = styled.h1`
 比如:
 ```js
 `普通的字符串就ok，只需要把字符串的单/双引号改为反引号就可以啦`// 普通的字符串就ok，只需要把字符串的单/双引号改为反引号就可以啦
-`里面也可以插入表达式${1 + 1}, ${Date.now()}, ${true ? 'true!' : 'false!'...` // 里面也可以插入表达式2, 1501229051899, true!...`
+`里面也可以插入表达式${1 + 1}, ${Date.now()}, ${true ? 'true!' : 'false!'}...` // 里面也可以插入表达式2, 1501229051899, true!...`
 ```
 
 # Tagged Template Literals
@@ -46,8 +46,8 @@ f`abc${1 + 1}edf, now=${Date.now()}.` // ["abc", "edf, now=", "."] 2 15012301601
 
 然而这又有什么用呢？我们刚说了，“后面的参数是某个interpolations的value”，关键就在这value上。在js里面，value可以是数字123，可以是string"abc"，可以是数组[1, 2, 3]， 可以是对象{a: 1}， 也可以是函数(a, b) => {return a + b;}啊！so，如果我们的template string里面有某个函数又会怎样呢？
 ```js
-g(`test ${() => console.log('test function')}`) // test () => console.log('test function')
-g`test ${() => console.log('test function')}` // ["test", ""] () => console.log('test function')
+f(`test ${() => console.log('test function')}`) // test () => console.log('test function')
+f`test ${() => console.log('test function')}` // ["test", ""] () => console.log('test function')
 ```
 肉眼上可能很难看出来，但是第一个调用里面，输出的是函数toString()转为字符串后的结果，也就是并非真正的函数，所以不能执行。而第二个调用，输出的是真正的函数，那就可以执行这个函数！
 

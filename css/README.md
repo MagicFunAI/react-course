@@ -7,7 +7,7 @@
 ```jsx
 import './styleA.css'
 
-<MyComponentA clssName="red" />
+<MyComponentA className="red" />
 ```
 ```css
 .red {
@@ -19,7 +19,7 @@ import './styleA.css'
 ```jsx
 import './styleB.css'
 
-<MyComponentB clssName="red" />
+<MyComponentB className="red" />
 ```
 ```css
 .red {
