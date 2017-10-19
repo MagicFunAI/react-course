@@ -104,3 +104,7 @@ export default ClockContainer;
 肯定会有人说，这完全就是多此一举把代码搞复杂了啊。 是的！在这个简单的例子里面确实没必要，但是如果你是在实战中，可能`Clock`这个负责显示的组件会很复杂，有颜色，有布局，有不同的形状吗，甚至可能还会调用很多其他更小的组件，这样拆分后你在修改`Clock`的时候就完全不用管`ClockContainer`。 同样，如果有一天你想把显示逻辑改为精确到毫秒，你也只用修改`ClockContainer`而完全不用动`Clock`。
 
 当然，如果你的实际项目就是像demo这么简单的话， 我觉得你应该使用[jQuery](https://jquery.org/)甚至直接用原生js而不用React的啊！ I really mean it!
+
+
+# Refers
+* https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0
