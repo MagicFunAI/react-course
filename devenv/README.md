@@ -5,6 +5,10 @@
 良好的开发环境能大大提高开发效率。
 
 React生态下的开发环境包括：
+0. Node
+  * [nvm](https://github.com/creationix/nvm)
+  * npm, Node.js自带
+  * [nrm](https://github.com/Pana/nrm)
 1. 编辑器/IDE，包括语法高亮、快捷键、code snippets、编辑器的一些插件等
   * [VSCode](https://code.visualstudio.com/)
   * [Atom ](https://atom.io/)
