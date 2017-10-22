@@ -2,7 +2,7 @@
 
 * [课程介绍](README.md)
 * [30分钟入门](quickintro/README.md)
-* [学习路径](studyplan/README.md)
+* [学习计划](studyplan/README.md)
 * [开发环境搭建](devenv/README.md)
     * [编辑器](devenv/editor.md)
     * [create-react-app](devenv/create-react-app.md)
