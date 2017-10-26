@@ -1,7 +1,7 @@
 # 学习计划
 
 # React入门
-## ES5-ES7的一些语法介绍 (2)
+## ES5-next的一些语法介绍 (2)
   * map
   * filter
   * reduce

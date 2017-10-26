@@ -1,8 +1,16 @@
 # Summary
 
 * [课程介绍](README.md)
-* [30分钟入门](quickintro/README.md)
 * [学习计划](studyplan/README.md)
+* [30分钟入门](quickintro/README.md)
+* [ES5-next准备](es/README.md)
+    * [map/filter/reduce](es/map-filter-reduce.md)
+    * [let/const](es/let-const.md)
+    * [字符串插值](es/string-interpolation.md)
+    * [箭头函数](es/arrow-function.md)
+    * [class](es/class.md)
+    * [解构](es/destruce.md)
+    * [Promise & async/await](es/promise-async-await.md)
 * [开发环境搭建](devenv/README.md)
     * [编辑器](devenv/editor.md)
     * [create-react-app](devenv/create-react-app.md)
