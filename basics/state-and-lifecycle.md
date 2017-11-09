@@ -106,5 +106,8 @@ export default ClockContainer;
 当然，如果你的实际项目就是像demo这么简单的话， 我觉得你应该使用[jQuery](https://jquery.org/)甚至直接用原生js而不用React的啊！ I really mean it!
 
 
+这里有一张图（[来自简书这里](http://www.jianshu.com/p/4784216b8194)），涵盖了React组件的生命周期函数。
+![React组件生命周期函数](http://upload-images.jianshu.io/upload_images/1814354-4bf62e54553a32b7.png)
+
 # Refers
 * https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0

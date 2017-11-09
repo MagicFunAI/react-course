@@ -12,8 +12,10 @@
 ### URL参数
 ### 权限管理Redirect
 ### 跳转前提示Prompt
-### 侧边栏
-### Switch之渲染一个Route
+### 404（默认匹配）
+### 渲染多个Route
+### 切换动画
+### Switch只渲染一个Route
 ### Modal Gallery
 
 视频地址： https://www.bilibili.com/video/av15344681/
