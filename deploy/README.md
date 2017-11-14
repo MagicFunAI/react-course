@@ -46,3 +46,21 @@ https://github.com/facebookincubator/create-react-app/blob/master/packages/react
 ```bash
 PUBLIC_URL=http://static.magicfun.ai/test/ npm run build
 ```
+
+
+# 使用阿里云OSS和CDN
+1. 开通OSS: https://www.aliyun.com/product/oss 和CDN: https://www.aliyun.com/product/cdn
+
+2. CDN的回源地址配置成OSS。
+
+3. 配置CDN的域名， 建议开启HTTPS
+
+4. 开通访问控制https://www.aliyun.com/product/ram?spm=5176.product31815.765261.380.OHCIzI
+ 给每个员工开通上传特定OSS bucket的权限https://help.aliyun.com/document_detail/61950.html?spm=5176.doc31893.6.914.DFo6hr ， 员工通过OSS客户端工具： https://help.aliyun.com/document_detail/44075.html?spm=5176.product31815.6.1026.OHCIzI 登录， 然后直接把打包好的静态资源文件拖放上传到某个目录。  然后用cdn的地址访问静态资源即可。  
+
+
+图片支持裁剪功能， 可以根据需要加载不同尺寸的图片https://help.aliyun.com/document_detail/44686.html?spm=5176.doc61950.6.944.ApX9RV
+
+如果有需要用户上传图片的功能，建议采用OSS直传功能：
+* https://help.aliyun.com/document_detail/31926.html?spm=5176.doc31927.6.632.olPlaQ
+* https://help.aliyun.com/document_detail/31920.html?spm=5176.doc31926.6.626.bCwgsq
