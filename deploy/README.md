@@ -64,3 +64,15 @@ PUBLIC_URL=http://static.magicfun.ai/test/ npm run build
 如果有需要用户上传图片的功能，建议采用OSS直传功能：
 * https://help.aliyun.com/document_detail/31926.html?spm=5176.doc31927.6.632.olPlaQ
 * https://help.aliyun.com/document_detail/31920.html?spm=5176.doc31926.6.626.bCwgsq
+
+
+# REST接口设计
+可以用http://rapapi.org/org/index.do 来管理接口。
+
+接口设计需要注明的几点：
+* URL
+* http method
+* request headers， 包括`Content-Type`, 是否需要带`cookie`等
+* request参数，包括字段名称， 字段类型， 字段含义和具体的描述信息等。
+* response headers，包括`Content-Type`, `CORS`头部等
+* repsonse参数，包括字段名称， 字段类型， 字段含义和具体的描述信息等。 **注意，要包含正确和错误两种情况！**
