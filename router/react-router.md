@@ -24,6 +24,7 @@
 ## Code Splitting
 * https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#code-splitting
 * https://serverless-stack.com/chapters/code-splitting-in-create-react-app.html
+
 代码见：https://github.com/magicly/react-homework/tree/master/3-router/chap5-router
 
 # Refers
