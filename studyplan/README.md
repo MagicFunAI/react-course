@@ -40,12 +40,13 @@
 
 =============================================
 
-# React Native入门 (4)
-## 30分钟Hello World!
-## 基础API和组件介绍
-## 样式布局Flex
+# [React Native 移动开发入门与实战(4)](http://gitbook.cn/gitchat/column/5a17c2e113c02f4a35ca5a7d)
+## [30分钟Hello World!](http://gitbook.cn/gitchat/column/5a17c2e113c02f4a35ca5a7d/topic/5a17d7e813c02f4a35ca6494)
+## [基础API和组件介绍](http://gitbook.cn/gitchat/column/5a17c2e113c02f4a35ca5a7d/topic/5a17d8a813c02f4a35ca6508)
+## [样式布局Flex](http://gitbook.cn/gitchat/column/5a17c2e113c02f4a35ca5a7d/topic/5a17d85613c02f4a35ca64ce)
   * http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
 
+## [导航 React Navigation](http://gitbook.cn/gitchat/column/5a17c2e113c02f4a35ca5a7d/topic/5a17d8f713c02f4a35ca652b)
 ## 使用第三方组件
 ## 打包发布
 
