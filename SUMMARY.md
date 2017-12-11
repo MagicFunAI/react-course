@@ -33,6 +33,8 @@
     * [react-router](router/react-router.md)
     * [history](router/history.md)
 * [Redux](redux/README.md)
+    * [egg-getting-started-with-redux](redux/egg-getting-started-with-redux.md)
+    * [egg-building-react-applications-with-idiomatic-redux](redux/egg-building-react-applications-with-idiomatic-redux.md)
     * [redux-tool](redux/dev-tool.md)
     * [redux源码阅读](redux/source-code.md)
 * [介绍几个React组件库](awesome-rc/README.md)
