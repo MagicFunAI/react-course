@@ -198,12 +198,16 @@ const combineReducers = reducers => {
 ### Passing Store
 * Explicitly via Props
 * Implicitly via Context
+> You should only use context if you're using it for dependency injection.
 * <Provider>
 ### Generating Containers with connect() from React Redux
 * VisibleTodoList
 * AddTodo
 * FooterLink
 ### Extracting Action Creators
+
+# 文字内容
+文字内容请参考http://gitbook.cn/gitchat/column/5a17c2e113c02f4a35ca5a7d 第八章。
 
 # 视频地址
 http://www.bilibili.com/video/av17174653/
